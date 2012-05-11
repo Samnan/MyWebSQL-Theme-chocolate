@@ -90,7 +90,7 @@
 }
 
 .treeview a.selected {
-	background-color: #eee;
+	background-color: #1C160D;
 }
 
 .treeview li.collapsable,.treeview li.expandable {
@@ -150,7 +150,7 @@
 }
 
 .filetree li span.current {
-	background: url(themes/chocolate/images/ui-bg_highlight.png) repeat-x scroll 50% 48% #ccc;
+	background: url(themes/chocolate/images/ui-bg_highlight-soft_20_201913_1x100.png) repeat-x scroll 50% 48% #1C160D;
 }
 
 .filetree span a:hover {

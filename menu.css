@@ -28,16 +28,16 @@ ul.dropdown li a {
 }
 
 ul.dropdown li.hover,ul.dropdown li:hover {
-	background-color: #444;
-	border: 1px solid #eee;
+	background-color: #1C160D;
+	border: 1px solid #695444;
 	position: relative;
 }
 
 ul.dropdown ul {
 	-moz-box-shadow: 3px 3px 4px #5e5e5e;
 	-webkit-box-shadow: 3px 3px 4px #5e5e5e;
-	background: #444 url(themes/chocolate/images/cmenu-bg.gif) repeat-y scroll left top;
-	border: 1px solid #EEE;
+	background: #1C160D url(themes/chocolate/images/cmenu-bg.gif) repeat-y scroll left top;
+	border: 1px solid #695444;
 	box-shadow: 3px 3px 4px #5e5e5e;
 	left: -1px;
 	list-style: none;
@@ -93,8 +93,8 @@ ul.dropdown a:focus {
 ul.context {
 	-moz-box-shadow: 3px 3px 4px #5e5e5e;
 	-webkit-box-shadow: 3px 3px 4px #5e5e5e;
-	background: #444 url(themes/chocolate/images/cmenu-bg.gif) repeat-y scroll left top;
-	border: 1px solid #eee;
+	background: url(themes/chocolate/images/cmenu-bg.gif) #1C160D repeat-y scroll left top;
+	border: 1px solid #695444;
 	box-shadow: 3px 3px 4px #5e5e5e;
 	padding: 2px;
 	position: relative;
@@ -145,16 +145,12 @@ ul.dropdown a:hover {
 }
 
 ul.dropdown li.right:hover {
-	border-bottom: 1px solid #fafafa;
-}
-
-ul.dropdown li.hover a {
-	color: #fff;
+	border-bottom: 1px solid #695444;
 }
 
 ul.dropdown ul li:hover {
-	background: url(themes/chocolate/images/ui-bg_highlight.png) repeat-x scroll 50% 54% #dbeefa;
-	border: 1px solid #2189af;
+	background-color: #1C160D;
+	border: 1px solid #695444;
 }
 
 ul.dropdown ul li a:hover {
@@ -174,8 +170,8 @@ ul.dropdown ul ul li:hover a {
 }
 
 ul.context li:hover {
-	background: url(themes/chocolate/images/ui-bg_highlight.png) repeat-x scroll 50% 54% #dbeefa;
-	border: 1px solid #2189af;
+	background: url(themes/chocolate/images/ui-bg_highlight-soft_20_201913_1x100.png) repeat-x scroll 50% 54% #1C160D;
+	border: 1px solid #695444;
 }
 
 ul.dropdown li a.itable {
