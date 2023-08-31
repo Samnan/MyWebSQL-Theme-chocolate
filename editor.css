@@ -1,12 +1,11 @@
 .editbox {
-	background-color: #777;
-	color: #333;
+	color: #494949;
 	font-family: monospace;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 span.sql-keyword {
-	color: blue;
+	color: rgb(0, 128, 255);;
 }
 
 span.sql-var {
@@ -14,27 +13,27 @@ span.sql-var {
 }
 
 span.sql-comment {
-	color: #dfc5bb;
+	color: rgb(162, 161, 159);
 }
 
 span.sql-literal {
-	color: #a3c0a3;
+	color: green;
 }
 
 span.sql-operator {
-	color: blue;
+	color: rgb(179, 43, 1);
 }
 
 span.sql-word {
-	color: #222;
+	color: #313131;
 }
 
 span.sql-quoted-word {
-	color: #afb568;
+	color: rgb(10, 167, 2);
 }
 
 span.sql-function {
-	color: #f8cc00;
+	color: #ff8c00;
 }
 
 span.sql-type {
@@ -46,7 +45,7 @@ span.sql-separator {
 }
 
 span.sql-number {
-	color: #0ff;
+	color: rgb(196, 13, 120);
 }
 
 .CodeMirror-wrapping {
@@ -54,9 +53,9 @@ span.sql-number {
 }
 
 .CodeMirror-line-numbers {
-	background-color: #777;
+	background-color: #fff;
 	border-right: 1px dotted #d4d4d4;
-	color: #eee;
+	color: #aaa;
 	font-family: courier new;
 	font-size: 10pt;
 }
